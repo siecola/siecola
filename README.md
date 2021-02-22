@@ -14,20 +14,20 @@ Crie a infraestrutura das aplicações baseadas em **Docker** com **AWS CDK**, i
 
 
 
-Nesse curso você irá criar duas aplicações utilizando **Spring Boot em containers Docker**, para interagir com serviços da AWS como:
+Nesse curso você irá criar duas aplicações utilizando **[Spring Boot](https://spring.io/projects/spring-boot) em containers [Docker](https://www.docker.com)**, para interagir com serviços da AWS como:
 
-- **ECS:** o Elastic Container Service é o serviço de orquestração de containers da AWS. Com ele é possível gerenciar a execução de aplicações baseados em **containers Docker** de forma robusta e escalável. E com o **AWS Fargate**, o **Serverless** compute for containers da AWS, não é necessário criar instâncias de máquinas EC2, reduzindo o custo de operação de aplicações baseadas em containers;
-- **RDS**: o Relational Database Service é um recurso que permite a criação de instâncias de banco de dados, com serviços como backups automáticos e diretrizes de segurança de acesso;
+- **[ECS](https://aws.amazon.com/ecs/):** o Elastic Container Service é o serviço de orquestração de containers da AWS. Com ele é possível gerenciar a execução de aplicações baseados em **containers Docker** de forma robusta e escalável. E com o **[AWS Fargate](https://aws.amazon.com/fargate)**, o **[Serverless](https://aws.amazon.com/serverless/)** compute for containers da AWS, não é necessário criar instâncias de máquinas EC2, reduzindo o custo de operação de aplicações baseadas em containers;
+- **[RDS](https://aws.amazon.com/rds/)**: o Relational Database Service é um recurso que permite a criação de instâncias de banco de dados, com serviços como backups automáticos e diretrizes de segurança de acesso;
 
-- **SNS**: o Simple Notification Service é um recurso muito utilizado para criação de mecanismos de notificações para diversas aplicações ou outros serviços;
+- **[SNS](https://aws.amazon.com/sns)**: o Simple Notification Service é um recurso muito utilizado para criação de mecanismos de notificações para diversas aplicações ou outros serviços;
 
-- **SQS**: o Simple Queue Service é um recurso que permite a criação de filas para entrega de mensagens de forma rápida e confiável, possibilitando a criação de um mecanismo assíncrono de comunicação entre aplicações;
+- **[SQS](https://aws.amazon.com/sqs/)**: o Simple Queue Service é um recurso que permite a criação de filas para entrega de mensagens de forma rápida e confiável, possibilitando a criação de um mecanismo assíncrono de comunicação entre aplicações;
 
-- **DynamoDB**: esse é um poderoso serviço de banco de dados NoSQL, que permite a criação de tabelas, sem a necessidade de se criar um servidor, com características exclusão automática de dados, escalabilidade e muito mais;
+- **[DynamoDB](https://aws.amazon.com/dynamodb)**: esse é um poderoso serviço de banco de dados NoSQL, que permite a criação de tabelas, sem a necessidade de se criar um servidor, com características exclusão automática de dados, escalabilidade e muito mais;
 
-- **S3**: o Simple Storage Service permite a criação de buckets para armazenamento seguro de arquivos. Além disso é possível configurar eventos a serem gerados quando esses arquivos são colocados nesses buckets, fazendo com outras aplicações sejam avisadas desses eventos.
+- **[S3](https://aws.amazon.com/s3/)**: o Simple Storage Service permite a criação de buckets para armazenamento seguro de arquivos. Além disso é possível configurar eventos a serem gerados quando esses arquivos são colocados nesses buckets, fazendo com outras aplicações sejam avisadas desses eventos.
 
-Com isso você aprenderá também a utilizar o **AWS SDK**, que é um conjunto de bibliotecas desenvolvido pela própria AWS para utilizar seus serviços. Esses recursos serão criados na AWS utilizando o **AWS Cloud Development Kit - CDK**, uma forma moderna de modelamento e provisionamento de infrastrutura na AWS. Você também aprenderá como monitorar os serviços através de gráficos e métricas, além de utilizar o **CloudWatch Insights,** para visualização e pesquisa de logs das aplicações. Aprenda tudo isso com explicações detalhadas e exercícios práticos, onde você poderá testar suas habilidades e aplicar os conceitos aprendidos. Ao final desse curso, você estará confiante para arquitetar e desenvolver serviços na AWS de forma escalável e robusta.
+Com isso você aprenderá também a utilizar o **[AWS SDK](https://aws.amazon.com/sdk-for-java/)**, que é um conjunto de bibliotecas desenvolvido pela própria AWS para utilizar seus serviços. Esses recursos serão criados na AWS utilizando o **AWS Cloud Development Kit - [CDK](https://aws.amazon.com/cdk/)**, uma forma moderna de modelamento e provisionamento de infrastrutura na AWS. Você também aprenderá como monitorar os serviços através de gráficos e métricas, além de utilizar o **[CloudWatch Insights](https://docs.aws.amazon.com/pt_br/AmazonCloudWatch/latest/logs/AnalyzingLogData.html),** para visualização e pesquisa de logs das aplicações. Aprenda tudo isso com explicações detalhadas e exercícios práticos, onde você poderá testar suas habilidades e aplicar os conceitos aprendidos. Ao final desse curso, você estará confiante para arquitetar e desenvolver serviços na AWS de forma escalável e robusta.
 
 
 
@@ -85,3 +85,36 @@ Apesar desse livro ser voltado a conceitos e arquiteturas não triviais no âmbi
 
  Finalmente o **capítulo 13** introduz o **Firebase Remote Config**, que possibilita a alteração de partes do aplicativo mediante variáveis de configuração que podem ser alteradas no console do Firebase.
 
+
+
+* [Desenvolvimento iOS com Firebase](https://leanpub.com/ioscloud)
+
+[<img src="images/book_cover_01_pt.png" alt="book_cover_01_pt" style="zoom:30%;" />](https://leanpub.com/ioscloud)
+
+Crie aplicativos para iOS utilizando SwiftUI 2.0 e serviços do Firebase, como Authentication, Firestore, Remote Config e Storage.
+
+ O público alvo desse livro são desenvolvedores com conhecimento em programação orientada a objetos, que desejam conhecer e desenvolver aplicativos para **iOS** utilizando serviços do **Google Firebase**.
+
+ Todos os aplicativos desenvolvidos aqui serão criados utilizando a linguagem **Swift**, criada pela Apple. Ter conhecimento nessa linguagem é desejável, mas a estrutura didática do livro considera que o leitor não tem nenhuma experiência prévia. Por isso, alguns conceitos importantes sobre Swift serão apresentados ao longo do livro, principalmente aqueles mais utilizados para o desenvolvimento de aplicativos para iOS.
+
+ Apesar desse livro ser voltado a conceitos e arquiteturas não triviais no âmbito do desenvolvimento de aplicativos para iOS, ele não considera como requisito um conhecimento prévio do leitor nesse assunto.  O mesmo se aplica ao Google Firebase. Por isso, seu conteúdo passará por assuntos básicos até chegar ao seu propósito final.
+
+ O **capítulo 2** oferece uma visão geral de como o processo de desenvolvimento de um app iOS acontece. 
+
+ No **capítulo 3**, o leitor terá uma explicação inicial sobre os serviços do Firebase que serão utilizados nesse livro, para integrar nas aplicações a serem desenvolvidas para iOS.
+
+ O **capítulo 4** é uma introdução a alguns conceitos da linguagem **Swift**, principalmente aqueles que serão mais utilizados nos exemplos que serão desenvolvidos nesse livro.
+
+ No **capítulo 5** é criado o primeiro aplicativo, já utilizando **SwiftUI** e as facilidades do Xcode Preview. Também são introduzidos conceitos como `State` e `Binding`, que facilitam a atualização da interface gráfica através de eventos.
+
+ O **capítulo 6** inicia um novo projeto onde são apresentadas técnicas modernas para a criação de um aplicativo para consumir **serviços REST autenticação OAuth** utilizando o Alamofire. Tudo construído com **SwiftUI**, mostrando o que ele tem de melhor, com a utilização de *viewModels* para a representação dos dados a serem atualizados na interface gráfica. Esse mesmo projeto será continuado no **capítulo 7**, onde será introduzida a navegação entre *view* dentro do app, assim como o consumo de outras operações do serviço REST.
+
+ O **capítulo 8** apresenta como construir um app para se registrar e receber mensagens do **Firebase Cloud Messaging**, um serviço capaz de enviar notificações a dispositivos móveis do Google.
+
+ No **capítulo 9** será mostrado como autenticar usuários com o **Firebase Authentication** de forma fácil e descomplicada. 
+
+ A informação do usuário autenticado será utilizada para definir as regras de segurança de acesso aos dados que ele criar no **Firestore**, um banco de dados não-relacional com sincronismo *realtime*, como será visto no **capítulo 10**.
+
+ No **capítulo 11** será visto outro serviço do Firebase, o **Analytics**, capaz de coletar eventos das ações do usuário dentro app, para obtenção de dados sobre seu comportamento e utilização de funcionalidades.
+
+ A implementação utilizando o SDK do Firebase faz com que o trabalho de upload e download das fotos seja bem simples e totalmente aderente à arquitetura adotada no restante das implementações realizadas nesse livro.
