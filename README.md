@@ -6,7 +6,7 @@ Master of Science in Computer Science by São Paulo University - USP. Backend an
 
 [**Criando serviços em Java com AWS ECS e Fargate**](**Criando serviços em Java com AWS ECS e Fargate**)
 
-[<img src="images/aws_course_image.png" alt="aws_course_image" style="zoom:50%;"/>](Criando serviços em Java com AWS ECS e Fargate)
+<img src="images/aws_course_image.png" alt="aws_course_image" style="zoom:50%;"/>
 
 ## Books:
 
