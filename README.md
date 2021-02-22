@@ -49,3 +49,39 @@ Todos os exemplos possuem código-fonte disponíveis para acesso gratuito. A seg
 - Lambda02: nesse segundo exemplo, será demonstrado como executar uma função Lambda através de um evento publicado no SNS.
 - Lambda03: aqui será apresentado como criar uma função Lambda para consumir arquivos importados no S3 e gravar seus dados em uma tabela do DynamoDB.
 
+
+
+* [Desenvolvimento Android com Firebase](https://leanpub.com/androidcloud)
+
+[<img src="images/book_cover_01_pt.png.png" alt="book_cover_01_pt.png" style="zoom:30%;" />](https://leanpub.com/androidcloud)
+
+O público alvo desse livro são desenvolvedores com conhecimento em programação orientada a objetos, que desejam conhecer e desenvolver aplicativos **Android** utilizando serviços do **Google Firebase**.
+
+Todos os aplicativos desenvolvidos aqui serão criados utilizando a linguagem **Kotlin**, criada pela JetBrains. Ter conhecimento nessa linguagem é desejável, mas a estrutura didática do livro considera que o leitor não tem nenhuma experiência prévia. Por isso, alguns conceitos importantes sobre Kotlin serão apresentados ao longo do livro, principalmente aqueles mais utilizados para o desenvolvimento de aplicativos para Android.
+
+Apesar desse livro ser voltado a conceitos e arquiteturas não triviais no âmbito do desenvolvimento de aplicativos para Android, ele não considera como requisito um conhecimento prévio do leitor nesse assunto.  O mesmo se aplica ao Google Firebase. Por isso, seu conteúdo passará por assuntos básicos até chegar ao seu propósito final.
+
+ Os capítulos são apresentados da seguinte forma:
+
+ O **capítulo 2** apresenta um pouco sobre o sistema operacional Android e o **capítulo 3** mostra conceitos por trás da plataforma Firebase que será utilizada pelos aplicativos desenvolvidos nesse livro.
+
+ O **capítulo 4** instrui o leitor a preparar seu ambiente de desenvolvimento, no processo de instalação das ferramentas e bibliotecas necessárias, bem como suas configurações. 
+
+ No **capítulo 5** são apresentados alguns conceitos da linguagem Kotlin, focado no que será utilizado para o desenvolvimentos dos aplicativos nesse livro.
+
+ No **capítulo 6** começa o desenvolvimento de um aplicativo bem simples, somente com o intuito de demonstrar a ferramenta Android Studio, a linguagem Kotlin e a estrutura de um projeto inicial, utilizando `ConstraintLayout` para a construção da interface gráfica
+
+ Ainda com o mesmo aplicativo desenvolvido, o **capítulo 7** apresenta alguns desafios do mundo de dispositivos móveis e como resolvê-los com técnicas simples. Aqui, serão apresentados conceitos como `Activity`, seu ciclo de vida e como lidar com seus estados.
+
+ O **capítulo 8** inicia um novo aplicativo para consumir serviços REST com OAuth utilizando o framework Retrofit.
+
+ O **capítulo 9** continua o segundo aplicativo, introduzindo conceitos de listas criadas com o componente `RecyclerView`, assim como a navegação entre telas utilizando o `NavigationController`, que permite a utilização de *safe args* entre fragmentos.
+
+ No **capítulo 10** um novo aplicativo será criado para receber mensagens através do **Firebase Cloud Messaging**, dando início a parte do livro que trata sobre a interação de aplicações Android com a plataforma Firebase.
+
+ O **capítulo 11** inicia um novo aplicativo para utilizar o **Firebase Authentication**, para autenticação de usuários utilizando a conta do Google, sem a necessidade da criação de infraestruturas complexas.
+
+ O **capítulo 12** utiliza uma ferramenta extremamente poderosa para o entendimento do comportamento do usuário com um aplicativo: **Firebase Analytics**. Com ele é possível gerar eventos da utilização de cada parte da aplicação, concentrando em um dashboard analítico.
+
+ Finalmente o **capítulo 13** introduz o **Firebase Remote Config**, que possibilita a alteração de partes do aplicativo mediante variáveis de configuração que podem ser alteradas no console do Firebase.
+
