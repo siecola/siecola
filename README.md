@@ -4,7 +4,7 @@ Mestre em Ciência da Computação pela Universidade de São Paulo - USP. Desenv
 
 ## Cursos online:
 
-[Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)
+* [Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)
 
 Crie a infraestrutura das aplicações baseadas em **Docker** com **AWS CDK**, interagindo com serviços da AWS como **SNS**, **SQS**, **RDS**, **DynamoDB** e **S3**.
 
@@ -31,6 +31,21 @@ Com isso você aprenderá também a utilizar o **AWS SDK**, que é um conjunto d
 
 
 
-## Livros:
+## E-books:
 
-- 
+- [Desenvolvendo aplicações em Java para AWS](https://leanpub.com/amazonwebservice)
+
+[<img src="/Users/paulosiecola/pcs/projetos_particulares/github_profile/siecola/images/book_cover_03_pt.png" alt="book_cover_03_pt" style="zoom:50%;" />](https://leanpub.com/amazonwebservice)
+
+Esse livro é destinado a **desenvolvedores de software**, com ou sem experiência em cloud computing, que desejam se aprofundar nos serviços oferecidos pela AWS. Também é uma fonte de conhecimento para **administradores e operadores de sistemas**, para se familiarizarem com as ferramentas de criação e administração de recursos de cloud computing da AWS. 
+
+As aplicações ensinadas nesse livro, como forma de exemplificação dos conceitos que serão apresentados, utilizam *frameworks* e ferramentas modernas, como **Spring Boot** e **Docker**. Dessa forma, o leitor aprenderá a trabalhar com tais tecnologias em conjunto com os serviços de *cloud computing*. 
+
+Todos os exemplos possuem código-fonte disponíveis para acesso gratuito. A seguir uma breve descrição de cada um deles:
+
+- Project01: nesse exemplo será construída uma aplicação com serviços REST para cadastro de produtos de uma loja. Tais produtos serão armazenados em um banco de dados MySQL utilizando o [AWS RDS](https://aws.amazon.com/rds/). Em cada operação de cadastro, exclusão ou alteração de um produto, um evento será publicado em um tópico do [AWS SNS](https://aws.amazon.com/sns), permitindo a integração com outras aplicações. Essa aplicação também fará importação de arquivos de notas fiscais através do [AWS S3](https://aws.amazon.com/s3/).
+- Project02: esse projeto contará com uma tabela do [AWS DynamoDB](https://aws.amazon.com/dynamodb), para armazenar os eventos gerados pela aplicação de cadastro de produtos, integrado através de uma fila do [AWS SQS](https://aws.amazon.com/sqs/).
+- Lambda01: esse será um exemplo simples de uma aplicação *serverless* utilizando funções com o [AWS Lambda](https://aws.amazon.com/lambda/), demonstrando como agendar a execução de uma função.
+- Lambda02: nesse segundo exemplo, será demonstrado como executar uma função Lambda através de um evento publicado no SNS.
+- Lambda03: aqui será apresentado como criar uma função Lambda para consumir arquivos importados no S3 e gravar seus dados em uma tabela do DynamoDB.
+
