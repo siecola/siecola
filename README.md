@@ -35,7 +35,7 @@ Com isso você aprenderá também a utilizar o **AWS SDK**, que é um conjunto d
 
 - [Desenvolvendo aplicações em Java para AWS](https://leanpub.com/amazonwebservice)
 
-[<img src="images/book_cover_03_pt.png" alt="book_cover_03_pt" style="zoom:50%;" />](https://leanpub.com/amazonwebservice)
+[<img src="images/book_cover_03_pt.png" alt="book_cover_03_pt" style="zoom:30%;" />](https://leanpub.com/amazonwebservice)
 
 Esse livro é destinado a **desenvolvedores de software**, com ou sem experiência em cloud computing, que desejam se aprofundar nos serviços oferecidos pela AWS. Também é uma fonte de conhecimento para **administradores e operadores de sistemas**, para se familiarizarem com as ferramentas de criação e administração de recursos de cloud computing da AWS. 
 
