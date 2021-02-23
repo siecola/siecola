@@ -4,7 +4,7 @@ Mestre em Ciência da Computação pela Universidade de São Paulo - USP. Desenv
 
 ## Cursos online:
 
-* [Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)
+🔥[Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)🔥
 
 Crie a infraestrutura das aplicações baseadas em **Docker** com **AWS CDK**, interagindo com serviços da AWS como **SNS**, **SQS**, **RDS**, **DynamoDB** e **S3**.
 
@@ -29,11 +29,13 @@ Nesse curso você irá criar duas aplicações utilizando **[Spring Boot](https:
 
 Com isso você aprenderá também a utilizar o **[AWS SDK](https://aws.amazon.com/sdk-for-java/)**, que é um conjunto de bibliotecas desenvolvido pela própria AWS para utilizar seus serviços. Esses recursos serão criados na AWS utilizando o **AWS Cloud Development Kit - [CDK](https://aws.amazon.com/cdk/)**, uma forma moderna de modelamento e provisionamento de infrastrutura na AWS. Você também aprenderá como monitorar os serviços através de gráficos e métricas, além de utilizar o **[CloudWatch Insights](https://docs.aws.amazon.com/pt_br/AmazonCloudWatch/latest/logs/AnalyzingLogData.html),** para visualização e pesquisa de logs das aplicações. Aprenda tudo isso com explicações detalhadas e exercícios práticos, onde você poderá testar suas habilidades e aplicar os conceitos aprendidos. Ao final desse curso, você estará confiante para arquitetar e desenvolver serviços na AWS de forma escalável e robusta.
 
+------
+
 
 
 ## E-books:
 
-- [Desenvolvendo aplicações em Java para AWS](https://leanpub.com/amazonwebservice)
+👉 [Desenvolvendo aplicações em Java para AWS](https://leanpub.com/amazonwebservice)👈
 
 [<img src="images/book_cover_03_pt.png" alt="book_cover_03_pt" style="zoom:30%;" />](https://leanpub.com/amazonwebservice)
 
@@ -51,9 +53,11 @@ Todos os exemplos possuem código-fonte disponíveis para acesso gratuito. A seg
 - Lambda02: nesse segundo exemplo, será demonstrado como executar uma função Lambda através de um evento publicado no SNS.
 - Lambda03: aqui será apresentado como criar uma função Lambda para consumir arquivos importados no S3 e gravar seus dados em uma tabela do DynamoDB.
 
+------
 
 
-* [Desenvolvimento Android com Firebase](https://leanpub.com/androidcloud)
+
+👉 [Desenvolvimento Android com Firebase](https://leanpub.com/androidcloud)👈
 
 [<img src="images/book_cover_01_pt.png.png" alt="book_cover_01_pt.png" style="zoom:30%;" />](https://leanpub.com/androidcloud)
 
@@ -87,9 +91,11 @@ Apesar desse livro ser voltado a conceitos e arquiteturas não triviais no âmbi
 
 Finalmente o **capítulo 13** introduz o **[Firebase Remote Config](https://firebase.google.com/docs/remote-config)**, que possibilita a alteração de partes do aplicativo mediante variáveis de configuração que podem ser alteradas no console do Firebase.
 
+------
 
 
-* [Desenvolvimento iOS com Firebase](https://leanpub.com/ioscloud)
+
+👉 [Desenvolvimento iOS com Firebase](https://leanpub.com/ioscloud)👈
 
 [<img src="images/book_cover_01_pt.png" alt="book_cover_01_pt" style="zoom:30%;" />](https://leanpub.com/ioscloud)
 
