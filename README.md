@@ -4,7 +4,7 @@ Mestre em Ciência da Computação pela Universidade de São Paulo - USP. Desenv
 
 ## Cursos online:
 
-🔥[Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485)🔥
+🔥 [Criando serviços em Java com AWS ECS e Fargate](https://www.udemy.com/course/aws-ecs-fargate-java/?referralCode=859777729E4809B20485) 🔥
 
 Crie a infraestrutura das aplicações baseadas em **Docker** com **AWS CDK**, interagindo com serviços da AWS como **SNS**, **SQS**, **RDS**, **DynamoDB** e **S3**.
 
@@ -35,7 +35,7 @@ Com isso você aprenderá também a utilizar o **[AWS SDK](https://aws.amazon.co
 
 ## E-books:
 
-👉 [Desenvolvendo aplicações em Java para AWS](https://leanpub.com/amazonwebservice)👈
+👉 [Desenvolvendo aplicações em Java para AWS](https://leanpub.com/amazonwebservice) 👈
 
 [<img src="images/book_cover_03_pt.png" alt="book_cover_03_pt" style="zoom:30%;" />](https://leanpub.com/amazonwebservice)
 
@@ -57,7 +57,7 @@ Todos os exemplos possuem código-fonte disponíveis para acesso gratuito. A seg
 
 
 
-👉 [Desenvolvimento Android com Firebase](https://leanpub.com/androidcloud)👈
+👉 [Desenvolvimento Android com Firebase](https://leanpub.com/androidcloud) 👈
 
 [<img src="images/book_cover_01_pt.png.png" alt="book_cover_01_pt.png" style="zoom:30%;" />](https://leanpub.com/androidcloud)
 
@@ -95,7 +95,7 @@ Finalmente o **capítulo 13** introduz o **[Firebase Remote Config](https://fire
 
 
 
-👉 [Desenvolvimento iOS com Firebase](https://leanpub.com/ioscloud)👈
+👉 [Desenvolvimento iOS com Firebase](https://leanpub.com/ioscloud) 👈
 
 [<img src="images/book_cover_01_pt.png" alt="book_cover_01_pt" style="zoom:30%;" />](https://leanpub.com/ioscloud)
 
