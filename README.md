@@ -41,7 +41,7 @@ Com isso você aprenderá também a utilizar o **[AWS SDK](https://aws.amazon.co
 
 Esse livro é destinado a **desenvolvedores de software**, com ou sem experiência em cloud computing, que desejam se aprofundar nos serviços oferecidos pela AWS. Também é uma fonte de conhecimento para **administradores e operadores de sistemas**, para se familiarizarem com as ferramentas de criação e administração de recursos de cloud computing da AWS. 
 
-As aplicações ensinadas nesse livro, como forma de exemplificação dos conceitos que serão apresentados, utilizam *frameworks* e ferramentas modernas, como **Spring Boot** e **Docker**. Dessa forma, o leitor aprenderá a trabalhar com tais tecnologias em conjunto com os serviços de *cloud computing*. 
+As aplicações ensinadas nesse livro, como forma de exemplificação dos conceitos que serão apresentados, utilizam *frameworks* e ferramentas modernas, como **[Spring Boot](https://spring.io/projects/spring-boot)** e **[Docker](https://www.docker.com)**. Dessa forma, o leitor aprenderá a trabalhar com tais tecnologias em conjunto com os serviços de *cloud computing*. 
 
 Durante o livro será utilizado o **[ECS](https://aws.amazon.com/ecs/)**, o Elastic Container Service é o serviço de orquestração de containers da AWS. Com ele é possível gerenciar a execução de aplicações baseados em **containers Docker** de forma robusta e escalável.
 
@@ -99,7 +99,7 @@ Finalmente o **capítulo 13** introduz o **[Firebase Remote Config](https://fire
 
 [<img src="images/book_cover_01_pt.png" alt="book_cover_01_pt" style="zoom:30%;" />](https://leanpub.com/ioscloud)
 
-Crie aplicativos para iOS utilizando SwiftUI 2.0 e serviços do Firebase, como Authentication, Firestore, Remote Config e Storage.
+Crie aplicativos para iOS utilizando **[SwiftUI 2.0](https://developer.apple.com/xcode/swiftui/)** e serviços do **[Firebase](https://firebase.google.com)**, como Authentication, Firestore, Remote Config e Storage.
 
  O público alvo desse livro são desenvolvedores com conhecimento em programação orientada a objetos, que desejam conhecer e desenvolver aplicativos para **[iOS](https://developer.apple.com/ios/)** utilizando serviços do **Google [Firebase](https://firebase.google.com)**.
 
